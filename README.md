@@ -39,4 +39,4 @@ kubectl apply -f 03-ingress-plugin.yml
 konghq.com/plugins: rate-limiting-advanced-example
 ```
 
-If you login to Kong Manager and look for the route created when we ran step 1 `default.demo.00`, you should see the rate-limited-advanced plugin appear under Plugins
+If you login to Kong Manager and look for the route named `default.demo.00` created from step 2, you should see the rate-limited-advanced plugin appear under Plugins
