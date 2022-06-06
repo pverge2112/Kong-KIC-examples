@@ -1,0 +1,18 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: oidc-auth
+config:
+  issuer: <issue>
+  client_id:
+  - <clientId>
+  client_secret:
+  - <client secret>
+  consumer_by:
+  - username
+  - custom_id
+  consumer_claim:
+  - aud
+  redirect_uri:
+  - <redirect uri>
+plugin: openid-connect
