@@ -4,7 +4,7 @@ metadata:
   name: mtls-auth
 config:
   ca_certificates:
-  - cce8c384-721f-4f58-85dd-50834e3e733a
+  - <replace with certificate id>
   skip_consumer_lookup: true
   revocation_check_mode: SKIP
 plugin: mtls-auth
